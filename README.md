@@ -41,3 +41,5 @@ Hedef değişken TedaviSuresi modelleme için hazır hale getirilmiştir.
 Çalışma sonunda bazı modellemeler karşılaştırılarak tahminleme yapılmış ve sonucunda Rastgele Orman en iyi model bulunmuştur.
 ## Kullanılan Kütüphaneler:
 pandas, numpy, matplotlib, seaborn, scikit-learn
+## Dokümantasyon
+[Bulgu Özeti](Pusula_BulguOzeti.pdf)
