@@ -25,6 +25,16 @@ TedaviSuresi, UygulamaSuresi sayısal ifadeye dönüştürüldü, eksik değerle
 Cinsiyet, Uyruk KanGrubu kolonalarına LabelEncoding, Tanılar, TedaviAdı kolonalrına one-hot encoding işlemleri uygulandı.
 Metin bazlı kolonlar üzerinde KronikHastalık gibi TF-IDF vektörleşme uygulandı.
 Yas, TedaviSuresi, UygulamaSuresi kolonlardında StandartScaler uygulandı.
+## Model Eğitimi:
+## Kullanılan Modeller:
+Lineer Regresyon
+XGBOOST
+Rastgele Orman
+Destek Vektör Makinesi
+## Değerlendirme Metrikleri:
+R² Skoru
+Ortalama Kare Hatası (MSE)
+Ortalama Mutlak Hata (MAE)
 ## Sonuç:
 Veri seti temizlenmiş, eksik değerlerden arındırılmış ve kategorik değişkenler encode edilmiştir.
 Hedef değişken TedaviSuresi modelleme için hazır hale getirilmiştir.
